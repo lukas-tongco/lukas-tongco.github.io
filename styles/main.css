@@ -1,4 +1,6 @@
 body {
+  width: 50%;
+  margin: auto;
   background-color: #f5f5dc;
   color: #333333;
   text-align: center;
@@ -20,30 +22,32 @@ div.static {
   position: static;
 }
 
-.red-panda {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+img {
+  width: 100%;
+  height: auto;
 }
 
 /* widescreen displays */
 @media only screen and (min-width: 1024px) {
   .red-panda {
-    width: 30%;
+    width: 50%;
   }
 }
 
 /* tablet */
 @media only screen and (max-width: 768px) {
   .red-panda {
-    width: 40%;
+    width: 60%;
   }
 }
 
 /* mobile */
 @media only screen and (max-width: 425px) {
   .red-panda {
-    width: 60%;
+    width: 100%;
+  }
+  .span-example {
+    width: 200%;
   }
   h1 {
     font-size: 1.5em;
