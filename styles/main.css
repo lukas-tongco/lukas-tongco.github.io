@@ -9,13 +9,13 @@ body {
 
 ul,
 ol {
-  list-style-position: inside; /* Makes bullet points inside the list items */
+  list-style-position: inside;
   padding: 0;
-  text-align: center; /* Center-align the list items' text */
+  text-align: center;
 }
 
 li {
-  text-align: center; /* Center-align the list items' text */
+  text-align: center;
 }
 
 div.static {
